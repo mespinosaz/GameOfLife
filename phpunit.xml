@@ -1,0 +1,6 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="all">
+    </testsuite>
+  </testsuites>
+</phpunit>
