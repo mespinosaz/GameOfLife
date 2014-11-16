@@ -1,6 +1,7 @@
-<phpunit>
+<phpunit bootstrap="./vendor/autoload.php">
   <testsuites>
     <testsuite name="all">
+        <file>src/whs/GameOfLife/Tests/Universe/UniverseTest.php</file>
     </testsuite>
   </testsuites>
 </phpunit>

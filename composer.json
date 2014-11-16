@@ -1,7 +1,7 @@
 {
     "autoload": {
-        "psr-0": {
-            "whs": "src"
+        "psr-4": {
+            "whs\\": "src/whs"
         }
     },
     "require-dev": {
