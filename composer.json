@@ -1,10 +1,18 @@
 {
+    "name": "mespinosaz/game-of-life",
     "autoload": {
-        "psr-4": {
-            "whs\\": "src/whs"
-        }
+        "psr-4": {"mespinosaz\\": "src/"}
     },
-    "require-dev": {
-        "phpunit/phpunit": "4.3.*"
-    }
+    "require": {
+        "mespinosaz/php-utils": "0.0.0",
+        "phpunit/phpunit": "4.4.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Marc Espinosa",
+            "email": "marc@drizzt.ws"
+        }
+    ],
+    "minimum-stability": "stable"
 }

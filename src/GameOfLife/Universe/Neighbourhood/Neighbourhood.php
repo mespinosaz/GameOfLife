@@ -1,6 +1,6 @@
 <?php
 
-namespace whs\GameOfLife\Universe\Neighbourhood;
+namespace mespinosaz\GameOfLife\Universe\Neighbourhood;
 
 class Neighbourhood
 {

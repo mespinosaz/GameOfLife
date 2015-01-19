@@ -1,13 +1,13 @@
 <?php
 
-namespace whs\GameOfLife\Universe;
+namespace mespinosaz\GameOfLife\Universe;
 
-use whs\Util\Position\Position2D;
-use whs\GameOfLife\Universe\Exception\OutOfBoundariesException;
-use whs\GameOfLife\Universe\Rule\BirthRule;
-use whs\GameOfLife\Universe\Rule\DeathRule;
-use whs\GameOfLife\Universe\Cell\Cell;
-use whs\GameOfLife\Universe\Neighbourhood\Neighbourhood;
+use mespinosaz\Utility\Position\Position2D;
+use mespinosaz\GameOfLife\Universe\Exception\OutOfBoundariesException;
+use mespinosaz\GameOfLife\Universe\Rule\BirthRule;
+use mespinosaz\GameOfLife\Universe\Rule\DeathRule;
+use mespinosaz\GameOfLife\Universe\Cell\Cell;
+use mespinosaz\GameOfLife\Universe\Neighbourhood\Neighbourhood;
 
 class Universe
 {

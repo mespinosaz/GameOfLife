@@ -1,6 +1,6 @@
 <?php
 
-namespace whs\GameOfLife\Universe\Exception;
+namespace mespinosaz\GameOfLife\Universe\Exception;
 
 class OutOfBoundariesException extends \Exception
 {

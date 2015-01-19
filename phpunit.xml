@@ -1,7 +1,17 @@
-<phpunit bootstrap="./vendor/autoload.php">
-  <testsuites>
-    <testsuite name="all">
-        <file>src/whs/GameOfLife/Tests/Universe/UniverseTest.php</file>
-    </testsuite>
-  </testsuites>
+<phpunit backupGlobals="false"
+    backupStaticAttributes="false"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    processIsolation="false"
+    stopOnFailure="false"
+    syntaxCheck="false"
+    bootstrap="vendor/autoload.php">
+
+    <testsuites>
+        <testsuite name="Project test suite">
+            <directory suffix="Test.php">./src/GameOfLife/Tests/</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>

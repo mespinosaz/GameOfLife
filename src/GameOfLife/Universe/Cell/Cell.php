@@ -1,6 +1,6 @@
 <?php
 
-namespace whs\GameOfLife\Universe\Cell;
+namespace mespinosaz\GameOfLife\Universe\Cell;
 
 abstract class Cell
 {

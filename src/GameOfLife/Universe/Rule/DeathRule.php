@@ -1,9 +1,9 @@
 <?php
 
-namespace whs\GameOfLife\Universe\Rule;
+namespace mespinosaz\GameOfLife\Universe\Rule;
 
-use whs\GameOfLife\Universe\Neighbourhood\Neighbourhood;
-use whs\GameOfLife\Universe\Cell\Cell;
+use mespinosaz\GameOfLife\Universe\Neighbourhood\Neighbourhood;
+use mespinosaz\GameOfLife\Universe\Cell\Cell;
 
 class DeathRule extends Rule {
     const RESULT = 0;

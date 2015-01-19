@@ -2,8 +2,8 @@
 
 namespace whs\GameOfLife\Tests\Universe;
 
-use whs\GameOfLife\Universe\Universe;
-use whs\Util\Position\Position2D;
+use mespinosaz\GameOfLife\Universe\Universe;
+use mespinosaz\Utility\Position\Position2D;
 
 class UniverseTest extends \PHPUnit_Framework_TestCase
 {
